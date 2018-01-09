@@ -2,7 +2,7 @@
 With this tutorial you can learn how to send automatically an email from your box when condition(s) is (are) fulfilled. In our example, we will send automatically an email from a Yahoo box with a condition about the time (when it's "midi moins le quart, l'heure du ricard" for example).
 ## 1-Setting your USBWebserver
 First, you have to have a server. You can buy one if you want on the internet, or use your local server on your computer. In your example, we will use a local server for Windows on a USB. Download [USBWebserver v8.6](http://www.usbwebserver.net). Click on _usbwebserver.exe_ and turn on the local server. Open your favorite web browser and go to the URL _http://localhost_. You have to see all yours files present in your root file. Your server is ready.
-## 2-Setting [Send_Mail]()
+## 2-Setting Send_Mail
 Download the source code [Send_Mail]() available in my repository [Automatic-email-sending-with-condition]() and put it in your root file via USBWebserver v8.6 > root > Automatic-email-sending-with-condition). You don't have to change the files [PHPMailerAutoload.php](). Open the file [send_mail.php]() and change only *your-email@yahoo.com* and *your-password*. Open the file [to_send.php]() and change *your-email@yahoo.com* and *your-Subject-email* & *your-Body-email* if you want. Your application is ready to use.
 ## 3-Enjoying
 Now you can go to _http://localhost/SendMail/_, click on the link and see the result. You can also launch the application via your terminal on your computer. Handcoding by Aliocha. January 2018.
